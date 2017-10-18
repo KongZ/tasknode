@@ -1,0 +1,12 @@
+consoleConfig:
+  bindAddress: http://localhost:8900 
+singleServerConfig:
+  clientName: TaskNode
+  address: //127.0.0.1:6379
+# clusterServersConfig:
+#   clientName: TaskNode
+#   nodeAddresses:
+#   - "//127.0.0.1:6379"
+#   scanInterval: 1000
+executorServiceWorkers:
+  nt_nodeworker: 20
